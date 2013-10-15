@@ -6,8 +6,8 @@ ex5_1() {
   print('Ex. 5.1');
   var sentence = 'Le canada a 10 provinces et 3 territoires. 15 %, puis 20*.';
   print('Phrase: ${sentence}');
-  print('function that validate if a text has only letters (and spaces)');
-  print(NumberValidation(sentence));
+  print('function that validates if a text has only letters (and spaces)');
+  print(numberValidation(sentence));
   print('');
 }
 
@@ -42,7 +42,7 @@ ex5_4() {
   print('Ex. 5.4');
   var nombre = 8;
   print('function that handles the times table for any number. Case number = ${nombre}');
-  print(TimesTable(nombre));
+  print(timesTable(nombre));
   print('');
 }
 
@@ -50,7 +50,7 @@ ex5_5() {
   print('Ex. 5.5');
   var nombre = 8;  
   print('function that displays, in a balanced way, a tree with the height of: ${nombre}');
-  print(DisplayTree(nombre));
+  print(displayTree(nombre));
   print('');
 }
 

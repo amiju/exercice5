@@ -1,7 +1,7 @@
 part of principal05;
 
-//exercice05_01
-NumberValidation(String checkLetters) {  
+// 05_01
+numberValidation(String checkLetters) {  
   var letters = new RegExp(r'[^a-zA-Z ]');
   var statut = checkLetters.contains(letters,0); 
   var notLetters = '';
@@ -9,7 +9,7 @@ NumberValidation(String checkLetters) {
   
   if (statut) {
     print('This sentence doesn\'t contain only letters :');
-    for (var nombre in letters.allMatches(checkLetters)){
+    for (var nombre in letters.allMatches(checkLetters)) {
       print (nombre.group(0));
       notLetters = '$notLetters ${nombre.group(0)};';
     }    
@@ -22,7 +22,7 @@ NumberValidation(String checkLetters) {
   return resultatValidation;
 }
 
-//exercice05_02
+// 05_02
 longestSentence(var strSentence) {
   var long = 0;
   var plusLongue;
@@ -36,7 +36,7 @@ longestSentence(var strSentence) {
   return 'La plus longue phrase du texte est: ${plusLongue}'; 
 }
 
-//exercice05_03
+// 05_03
 longestWord(var strWord) {
   var long = 0;
   var plusLong;
@@ -50,8 +50,8 @@ longestWord(var strWord) {
   return 'Le plus long mot de la phrase est: ${plusLong}';  
 }
 
-//exercice05_04
-TimesTable(var nombre) { 
+// 05_04
+timesTable(var nombre) { 
   var multi = '';
  
   for (var j = 1; j <= 11; j++){
@@ -61,8 +61,8 @@ TimesTable(var nombre) {
   return (multi);
 }
 
-//exercice05_05
-DisplayTree(var height) { 
+// 05_05
+displayTree(var height) { 
   var i = 0;
   var j = 0;
   var k = 0;
