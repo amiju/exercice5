@@ -1,0 +1,22 @@
+ex05
+
+1/1
+
+olga.text
+->
+olga.txt
+
+NumberValidation
+->
+numberValidation
+TimesTable
+->
+timesTable
+voir https://www.dartlang.org/articles/style-guide/
+
+return (resultatValidation);
+->
+return resultatValidation;
+
+formater le code
+
